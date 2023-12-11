@@ -1,0 +1,31 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>12</LangVersion>
+
+    <Features>strict</Features>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+    <NoWarn>$(NoWarn);CA1014;CA1303;CA2007;CA1822</NoWarn>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+
+    <RestoreUseStaticGraphEvaluation>true</RestoreUseStaticGraphEvaluation>
+    <RestoreSources>https://api.nuget.org/v3/index.json</RestoreSources>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Author>Max T. Kristiansen</Author>
+    <Company>Max T. Kristiansen</Company>
+    <PackageProjectUrl>https://github.com/maxnatamo/Tombstone</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/maxnatamo/Tombstone.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

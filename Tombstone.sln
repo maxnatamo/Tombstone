@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6FFB5852-3B95-4FE6-940E-18DEAFD98BFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tombstone.CSharp", "src\Tombstone\Tombstone.CSharp.csproj", "{E2CEBF35-A622-496B-8A12-B0943C4F5F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tombstone.Tests", "test\Tombstone.Tests.csproj", "{1776ED45-6405-4DFD-A24F-0F96095AAEC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2CEBF35-A622-496B-8A12-B0943C4F5F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CEBF35-A622-496B-8A12-B0943C4F5F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CEBF35-A622-496B-8A12-B0943C4F5F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CEBF35-A622-496B-8A12-B0943C4F5F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1776ED45-6405-4DFD-A24F-0F96095AAEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1776ED45-6405-4DFD-A24F-0F96095AAEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1776ED45-6405-4DFD-A24F-0F96095AAEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1776ED45-6405-4DFD-A24F-0F96095AAEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E2CEBF35-A622-496B-8A12-B0943C4F5F13} = {6FFB5852-3B95-4FE6-940E-18DEAFD98BFB}
+	EndGlobalSection
+EndGlobal
